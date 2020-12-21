@@ -1,0 +1,145 @@
+
+/* Page index */
+
+.container1 {
+    background-color: black;
+    position: relative;
+    height: 45vh;
+    text-align: center;
+}
+
+.nome {
+    color: white;
+    position: relative;
+    top: 30%;
+}
+
+.photoperfil {
+    position: relative;
+    top: 35%;
+}
+
+.photoperfil img {
+    border-radius: 50%;
+}
+
+.container2 {
+    background-color: #2b2b2b;
+    position: relative;
+    height: 45vh;
+    text-align: center;
+}
+
+.projeto {
+    color: white;
+    position: relative;
+    top: 5%;
+}
+
+.sobre {
+    color: white;
+    position: relative;
+    top: 5%;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.tec {
+    color: white;
+    position: relative;
+    top: 5%;
+}
+
+.imagens {
+    position: relative;
+    top: 10%;
+}
+
+.container3 {
+    background-color: black;
+    position: relative;
+    height: 40vh;
+    text-align: center;
+}
+
+.sobremim {
+    color: white;
+    position: relative;
+    top: 5%;
+}
+
+.resumo {
+    color: white;
+    position: relative;
+    top: 5%;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.container3 h5 {
+    color: white;
+    position: relative;
+    top: 5%;
+}
+
+.exp {
+    color: white;
+    position: relative;
+    top: 2%;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+
+/* Config page portfolio */
+
+.container5 {
+    background-color: black;
+    position: relative;
+    height: 90vh;
+    text-align: center;
+}
+
+.textos {
+    color: white;
+    position: relative;
+    top: 15%;
+}
+
+/* --- pag contato --- */
+
+.containercontato {
+    background-color: black;
+    position: relative;
+    height: 90vh;
+    text-align: center;
+}
+
+.contato {
+    position: relative;
+    top: 25%;
+    color: white;
+}
+
+/* Config responsividade */
+
+@media screen and (max-width: 576px) {
+.container1 {
+    height: 60vh;
+}
+
+    .container2 {
+        height: 90vh;
+    }
+    .container3 {
+        height: 100vh;
+    }
+    .exp {
+        top: 5%;
+    }
+}
